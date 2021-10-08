@@ -4,7 +4,7 @@ import { randomInt } from "@dmhtoo/random-int";
 import { useCallback, useEffect, useState } from "react";
 
 export default function App() {
-  const team = ["CC", "DC", "DH", "DK", "SB"];
+  const team = ["CC", "CR", "DC", "DH", "DK", "SB"]; // TODO: move this hard-codedness to a remote spot...
   const [reviewerIndex, setReviewerIndex] = useState(0);
 
   const setNewRandomIndex = useCallback(() => {
